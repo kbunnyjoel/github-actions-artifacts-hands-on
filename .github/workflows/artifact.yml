@@ -27,7 +27,7 @@ jobs:
        uses: actions/download-artifact@v4.2.1
        with:
         # Name of the artifact to download. If unspecified, all artifacts for the run are downloaded.
-        name: Artifacts path
+        name: hello-artifact
         path: ./artifacts
 
      - name: Display contents of the file
